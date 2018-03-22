@@ -29,6 +29,7 @@ class App extends React.Component {
                       <h1>Note</h1>
                     </header>
                     <p>
+                        - ReactJS: Done<br/>
                         - Add and Remove: Done <br/>
                         - Completed: Coming soon...<br/>
                         - Save On Page Load: Coming soon...<br/>

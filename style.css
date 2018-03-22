@@ -1,0 +1,84 @@
+#main{
+    margin:auto;
+    background-color:white;
+    width:700px;
+    border:1px solid black;
+   
+}
+#root{
+    position:relative;
+}
+#note{
+    position:absolute;
+    top:0;
+    right:0;
+    padding:20px;
+    background-color:rgb(240, 240, 116);
+}
+#note p{
+    white-space: pre;
+}
+#note header{
+    text-align:center;
+}
+h1{
+    margin:0;
+}
+#head{
+    text-align:center;
+    background-color:rgb(230, 9, 9);
+    padding:20px;
+    color:white;
+}
+button{
+    border:0;
+    padding:6px 10px;
+    font-size:20px;
+    width:100px;
+    transition:100ms;
+}
+button:hover{
+    background-color:rgb(216, 215, 215);
+}
+input{
+    border:0;
+    font-size:20px;
+    width:350px;
+    padding:6px 0;
+}
+body{
+    margin:0;
+    background-color:rgb(158, 154, 154);
+}
+
+li{
+    padding:10px;
+    list-style:none;
+    background-color:rgb(207, 206, 206);
+    position: relative;
+    border:1px solid black;
+    transition:250ms;
+    font-size:20px;
+}
+span{
+    position: absolute;
+    top:0;
+    right:0;
+    padding:10px;
+    text-align:center;
+}
+li:hover{
+    background-color:rgb(145, 141, 141);
+}
+li:hover span{
+    color:white;
+}
+span:hover{
+    background-color:red;
+    
+}
+ul{
+   padding-left:0;
+   margin:0;
+   height:500px;
+}
